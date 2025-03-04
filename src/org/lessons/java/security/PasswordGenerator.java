@@ -29,5 +29,9 @@ public class PasswordGenerator {
         System.out.println("favourite color: " + favColor);
         System.out.println("birthday: " + birthDay + "/" + birthMonth + "/" + birthYear);
 
+        int birthSum = birthDay + birthMonth + birthYear;
+
+        System.out.println("password: " + name + "-" + surName + "-" + favColor + "-" + birthSum);
+
     }
 }
