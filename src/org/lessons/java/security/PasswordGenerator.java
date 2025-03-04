@@ -12,17 +12,20 @@ public class PasswordGenerator {
             System.out.println("Enter your surname: ");
             String surName = input.nextLine();
 
-            System.out.println("Enter your favourite color: ");
-            String favColor = input.nextLine();
-
             System.out.println("Enter your birth day: ");
             int birthDay = input.nextInt();
+            input.nextLine();
 
             System.out.println("Enter your birth month: ");
             int birthMonth = input.nextInt();
+            input.nextLine();
 
             System.out.println("Enter your birth year: ");
             int birthYear = input.nextInt();
+            input.nextLine();
+
+            System.out.println("Enter your favourite color: ");
+            String favColor = input.nextLine();
 
             System.out.println("name: " + name);
             System.out.println("surname: " + surName);
